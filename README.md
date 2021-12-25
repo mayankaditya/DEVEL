@@ -21,7 +21,8 @@ This is a postprocessing tools with following features:
 (q) Polyhedral bond angle time dependence with respect to unique axis
 (r) Diffraction pattern
 (s) Neutron/X-ray weighted diffraction pattern
-
+(t) Velocity Auto-correlation function
+(u) Diffusion Coefficient (from VACF and MSD)
 
 
 The code will available soon for public. For more query please write to mayankaditya@gmail.com
