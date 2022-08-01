@@ -1,5 +1,5 @@
 # DEVEL
-Molecular Dynamics Post-Processing Suits (Current version process the LAMMPS, DL-POLY and VASP trajectories)
+Molecular Dynamics Post-Processing Suits (Current version process the LAMMPS, DL-POLY and VASP trajectories).
 This is a postprocessing tools with following features:
 
 (a) Mean squared displacement
