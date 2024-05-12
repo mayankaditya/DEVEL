@@ -1,5 +1,5 @@
 # DEVEL
-Molecular Dynamics Post-Processing Suits (The current version processes the LAMMPS, VASP, DL-POLY, and GPUMD trajectories).
+Molecular Dynamics Post-Processing Suits To simulate Neutron & X-ray Scattering Experiments and Calculations of transport properties (The current version processes the LAMMPS, VASP, DL-POLY, and GPUMD trajectories).
 This is a postprocessing tool with the following features:
 
 (a) Mean squared displacement
