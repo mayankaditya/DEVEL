@@ -1,30 +1,5 @@
-# DEVEL
-Molecular Dynamics Post-Processing Suits To simulate Neutron & X-ray Scattering Experiments and Calculations of transport properties (The current version processes the LAMMPS, VASP, DL-POLY, and GPUMD trajectories).
-This is a postprocessing tool with the following features:
+Welcome to DEVEL, the post-processing tool that can help you simulate neutron and X-ray scattering experiments and calculate transport properties. With DEVEL, you can process LAMMPS, VASP, DL-POLY, and GPUMD trajectories. 
 
-(a) Mean squared displacement
-(b) Phonon Density of States 
-(c) Neutron Weighted phonon density of states
-(d) Pair-distribution function
-(e) X-ray and neutron-weighted pair distribution function
-(f) Anisotropic displacement pattern
-(g) Van-Hove correlation function
-(h) Dynamical structure factor calculation powder averaged S(Q, E)
-(i) Dynamics structure factor calculation single crystal, Neutron/X-ray weighted S(Q, E)
-(j) Powder averaged atomic resolved Quasi-elastic-neutron spectra 
-(k) Spectral energy density functional calculation
-(l) Acoustic phonon dispersion in liquid/amorphous/crystalline materials
-(m) Atomic-Pair resolved diffuse scattering, Neutron and X-ray weighted 
-(n) Atomic probability density function calculation 
-(o) Free energy landscape as a function of r with respect to the initial site
-(p) Bond-angle distribution
-(q) Polyhedral bond angle time dependence with respect to the unique axis
-(r) Diffraction pattern
-(s) Neutron/X-ray weighted diffraction pattern
-(t) Velocity Auto-correlation function
-(u) Diffusion Coefficient (from VACF and MSD)
+DEVEL offers a wide range of features that can help you get the most out of your simulations. You can use it to calculate mean squared displacement, phonon density of states, neutron-weighted phonon density of states, pair-distribution function, X-ray and neutron-weighted pair distribution function, anisotropic displacement pattern, Van-Hove correlation function, dynamical structure factor calculation powder-averaged S(Q, E), dynamics structure factor calculation single crystal, neutron/X-ray weighted S(Q, E), powder-averaged atomic-resolved quasi-elastic-neutron spectra, spectral energy density functional calculation, acoustic phonon dispersion in liquid/amorphous/crystalline materials, atomic-pair resolved diffuse scattering, neutron and X-ray weighted, atomic probability density function calculation, free energy landscape as a function of r with respect to the initial site, bond-angle distribution, polyhedral bond angle time dependence with respect to the unique axis, diffraction pattern, neutron/X-ray weighted diffraction pattern, velocity auto-correlation function, and diffusion coefficient (from VACF and MSD).
 
-
-The code manual will be available soon...
-For any query, support, or collaboration, please email to mayankaditya@gmail.com
-
+We are currently working on the code manual, which will be available soon. If you have any questions, need support, or want to collaborate, please reach out to us at mayankaditya@gmail.com. DEVEL can help you take your simulations to the next level, so don't hesitate to try it out today!
