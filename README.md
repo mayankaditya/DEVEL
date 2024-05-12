@@ -25,4 +25,6 @@ This is a postprocessing tool with the following features:
 (u) Diffusion Coefficient (from VACF and MSD)
 
 
-The code manual will be available soon... For more queries, please write to mayankaditya@gmail.com
+The code manual will be available soon...
+For any query, support, or collaboration, please email to mayankaditya@gmail.com
+
