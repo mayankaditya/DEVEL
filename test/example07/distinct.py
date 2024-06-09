@@ -8,7 +8,7 @@ fig=plt.figure(figsize=(12,12))
 
 
 
-data=np.loadtxt("VANHOVE_PAIR11")
+data=np.loadtxt("VANHOVE_PAIR_Na-Na")
 ax1=fig.add_subplot(2,3,1)
 time=(0,20,40,60,80)
 for i in range(1,5): 
@@ -22,7 +22,7 @@ ax1.legend(loc='upper right',fontsize=12,frameon=False)
 
 
 
-data=np.loadtxt("VANHOVE_PAIR12")
+data=np.loadtxt("VANHOVE_PAIR_Na-P")
 ax1=fig.add_subplot(2,3,2)
 time=(0,20,40,60,80)
 for i in range(1,5):
@@ -33,7 +33,7 @@ ax1.set_xlabel(r'r($\AA$)',fontsize=fs2)
 ax1.set_ylabel(r'4$\pi$r$^2$G$_{distinct}$(Na-P)',fontsize=12)
 ax1.legend(loc='upper right',fontsize=12,frameon=False)
 
-data=np.loadtxt("VANHOVE_PAIR13")
+data=np.loadtxt("VANHOVE_PAIR_Na-S")
 ax1=fig.add_subplot(2,3,3)
 time=(0,20,40,60,80)
 for i in range(1,5):
@@ -44,7 +44,7 @@ ax1.set_xlabel(r'r($\AA$)',fontsize=fs2)
 ax1.set_ylabel(r'4$\pi$r$^2$G$_{distinct}$(Na-S)',fontsize=12)
 ax1.legend(loc='upper right',fontsize=12,frameon=False)
 
-data=np.loadtxt("VANHOVE_PAIR22")
+data=np.loadtxt("VANHOVE_PAIR_P-P")
 ax1=fig.add_subplot(2,3,4)
 time=(0,20,40,60,80)
 for i in range(1,5):
@@ -56,7 +56,7 @@ ax1.set_ylabel(r'4$\pi$r$^2$G$_{distinct}$(P-P)',fontsize=12)
 ax1.legend(loc='upper right',fontsize=12,frameon=False)
 
 
-data=np.loadtxt("VANHOVE_PAIR23")
+data=np.loadtxt("VANHOVE_PAIR_P-S")
 ax1=fig.add_subplot(2,3,5)
 time=(0,20,40,60,80)
 for i in range(1,5):
@@ -67,7 +67,7 @@ ax1.set_xlabel(r'r($\AA$)',fontsize=fs2)
 ax1.set_ylabel(r'4$\pi$r$^2$G$_{distinct}$(P-S)',fontsize=12)
 ax1.legend(loc='upper right',fontsize=12,frameon=False)
 
-data=np.loadtxt("VANHOVE_PAIR33")
+data=np.loadtxt("VANHOVE_PAIR_S-S")
 ax1=fig.add_subplot(2,3,6)
 time=(0,20,40,60,80)
 for i in range(1,5):

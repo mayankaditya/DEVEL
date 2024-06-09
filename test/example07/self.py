@@ -5,7 +5,7 @@ from matplotlib.ticker import (MultipleLocator,FormatStrFormatter,AutoMinorLocat
 fs2=12
 fig=plt.figure(figsize=(12,4))
 
-data=np.loadtxt("VANHOVE_SELF01")
+data=np.loadtxt("VANHOVE_SELF_Na")
 ax1=fig.add_subplot(1,3,1)
 #ax1.set_titel('Na')
 time=(0,20,40,60,80)
@@ -17,7 +17,7 @@ ax1.set_xlabel(r'r($\AA$)',fontsize=fs2)
 ax1.set_ylabel(r'G$_{self}$(Na)',fontsize=12)
 ax1.legend(loc='upper right',fontsize=12,frameon=False)
 
-data=np.loadtxt("VANHOVE_SELF02")
+data=np.loadtxt("VANHOVE_SELF_P")
 ax1=fig.add_subplot(1,3,2)
 #ax1.set_titel('Na')
 time=(0,20,40,60,80)
@@ -30,7 +30,7 @@ ax1.set_ylabel(r'G$_{self}$(P)',fontsize=12)
 ax1.legend(loc='upper right',fontsize=12,frameon=False)
 
 
-data=np.loadtxt("VANHOVE_SELF03")
+data=np.loadtxt("VANHOVE_SELF_S")
 ax1=fig.add_subplot(1,3,3)
 #ax1.set_titel('Na')
 time=(0,20,40,60,80)
